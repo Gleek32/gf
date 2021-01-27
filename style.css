@@ -93,7 +93,7 @@ body {
 }
 
 .custom-radio  + .radio-btn {
-  border: 3px solid #8373e6;
+  border: 3px solid blue;
 }
 
 .custom-radio input:checked+.radio-btn {
