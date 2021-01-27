@@ -78,13 +78,13 @@ body {
 }
 
 .radio-btn .blue {
-  color: #8373e6;
+  color: blue;
   line-height: 80px;
   font-size: 60px;
 }
 
 .radio-btn .hobbies-icon h3 {
-  color: #8373e6;
+  color: blue;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 500;
