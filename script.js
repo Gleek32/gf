@@ -151,4 +151,3 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-prompt("hello world")
