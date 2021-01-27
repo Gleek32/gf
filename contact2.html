@@ -7,18 +7,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
+  
 </head>
 <body>
-  
-  <form action="/contact2.html" method="POST">
+  <div id="error"></div>
+  <form action="/" method="POST">
 First Name <br>
-<input type="text" name="fName"><br><br>
+<input type="text" name="fName" id="fName"><br><br>
 Last Name <br>
-<input type="text" name="lName"><br><br>
+<input type="text" name="lName" id="lName"><br><br>
 Your Email <br>
-<input type="text" name="email"><br><br>
+<input type="email" name="email" id="email"><br><br>
 Your Phone Number <br>
-<input type="text" name="phone" id=""> <br><br>
+<input type="number" name="phone" id="phone"> <br><br>
 Best time to call <br>
 <select name="" id="besttime">
   <option value="">8am - 10am</option>
@@ -28,7 +29,10 @@ Best time to call <br>
   <option value="">4pm - 6pm</option>
 </select> <br><br>
 <button class="w-100 btn btn-lg btn-primary" type="submit" onclick = "alert(' Your Request has been submitted')" >Submit</button>
-<input type="submit" onclick = "alert(' Your Request has been submitted')" name="" id="" value="Send">
+<div style="color: red "id="errorMessage"></div>
+<br><br><br>
+<a href="gift3.html" class="next round">Back</a>
   </form>
+  <script defer src="script.js"></script>
 </body>
 </html>

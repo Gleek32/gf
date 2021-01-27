@@ -1,3 +1,9 @@
+const firstName = document.getElementById("fName");
+const lastName = document.getElementById("lName");
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+const form = document.getElementById("form");
+const error = document.getElementById("error");
 const slidePage = document.querySelector(".slidepage");
 const firtNextBtn = document.querySelector(".nextBtn");
 const prevBtnSec = document.querySelector(".prev-1");
@@ -133,4 +139,16 @@ $('form').on('submit', (e) => {
         console.log('Server received data');
 });
 });
-© 2021 GitHub, Inc.
+form.addEventListener('submit', (e) => {
+  const messages = []
+  if (fName.value === '' || fName.value == null) {
+    messages.push('First Name Required')
+  }
+
+  if(messages.length > 0) {
+    e.preventDefault()
+    error.innerText = messages.join(', ')
+  }
+});
+
+prompt("hello world")
