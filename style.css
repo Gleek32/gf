@@ -48,10 +48,10 @@ body {
     text-align: center;
     font-family: "helvetica", sans-serif;
     font-weight: 400;
+
   }
 
   #blue  {
-
     width: 100%;
     margin: 0 0 20px 0;
     font-size: 25px;
@@ -65,13 +65,13 @@ body {
   color:#a098b9;
   margin-top: 5px;
   text-transform: uppercase;
+
 }
 
   .radio-buttons {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-
   }
 
   .custom-radio input {
@@ -93,6 +93,15 @@ body {
     cursor: pointer;
     background-color: white;
   }
+
+   .radio-btn2  {
+     width: 150px;
+     height: 120px;
+   }
+
+   .radio-btn2 .hobbies-icon2 h3 {
+     margin-top: 50px;
+   }
 
   .green   {
     color: #ffffff;
