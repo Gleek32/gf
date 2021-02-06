@@ -79,23 +79,7 @@ prevBtnFourth.addEventListener("click", function() {
 $('form').on('submit', (e) => {
   e.preventDefault();
 
-  const loan = $('#loan').val().trim();
-  const refi = $('#refi').val().trim();
-  const purchase = $('#purchase').val().trim();
-  const cash = $('#cash').val().trim();
-
-  const single = $('#single').val().trim();
-  const multi = $('#multi').val().trim();
-  const condo = $('#condo').val().trim();
-  const town = $('#town').val().trim();
-
-
-  const primary = $('#primary').val().trim();
-  const second = $('#second').val().trim();
-  const invest = $('#invest').val().trim();
-
-
-
+  
   const firstName = $('#firstName').val().trim();
   const lastName = $('#lastName').val().trim();
   const email = $('#email').val().trim();
