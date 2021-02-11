@@ -43,7 +43,7 @@
   .main-container h2 {
     width: 50%;
     margin: 0 0 30px 0;
-    color: rgb(172, 186, 214);
+    color: #6699CC;
     /* color: rgb(63, 165, 212); */
     font-size: 25px;
     text-align: center;
@@ -61,7 +61,7 @@
 
 /* affects the h3 */
 .radio-btn .hobbies-icon h3 {
-  color:rgb(172, 186, 214);
+  color: #6699CC;
   margin-top: 5px;
   text-transform: uppercase;
 
@@ -100,6 +100,7 @@
 
    .radio-btn2 .hobbies-icon2 h3 {
      margin-top: 50px;
+     
    }
 
   .green   {
@@ -125,6 +126,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
+  }
+
+  #besttime  {
+    color: #6699CC;
+  }
+
+  #submit {
+    color: #6699CC;
+    display: none;
   }
     /* controls the icons */
   .radio-btn .blue {
@@ -155,7 +165,7 @@
   .form {
     background-color: #fff;
     width: 500px;
-    color: white;
+    color: #6699CC;
     margin: auto;
     /* border: 2px solid gold; */
     padding: 20px;
@@ -218,7 +228,7 @@
 
     .radio-btn .hobbies-icon  {
       color: #6699CC;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Nunito Sans', sans-serif;
       font-size: 18px;
       font-weight: 500;
       margin-top: 20px;
