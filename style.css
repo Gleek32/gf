@@ -1,4 +1,4 @@
- @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 /* body {
   @include box(horizontal, start, stretch);
@@ -6,11 +6,9 @@
   color: darken($option-color, 15%);
   font-family: "Comic Neue", san-sarif;
   text-align: center;
-
   div {
     padding: 5rem;
   }
-
   label {
     display: block;
     line-height: $option-size;
@@ -44,9 +42,7 @@
     width: 40%;
     margin: 0 0 30px 0;
     color: #6699CC;
-    /* color: rgb(63, 165, 212); */
     font-weight: 500;
-    /* font-size: 25px; */
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
   }
@@ -65,7 +61,7 @@
   color: #6699CC;
   margin-top: 5px;
   text-transform: uppercase;
-font-weight: 500;
+  font-weight: 500;
 }
 
   .radio-buttons {
@@ -230,6 +226,10 @@ color:  #6699CC;
     border-radius: 20%;
   }
 
+  .gift4 {
+    padding: 40px;
+  }
+
   @media screen and (max-width: 750px){
 
     .radio-btn .hobbies-icon  {
@@ -242,10 +242,11 @@ color:  #6699CC;
     }
 
   .radio-btn {
-    height: 140px;
+    margin: 5px;
+    height: 150px;
     display: inline-block;
-    margin-bottom: 0px;
-
+    margin-bottom: 2px;
+ 
   }
 
   .radio-btn2 {
@@ -260,12 +261,27 @@ color:  #6699CC;
     padding-top: 50px;
   }
   .form {
-  width: 400px;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-left: 30px;
+  }
 
+  .radio-btn .blue {
+    /* align-items: center; */
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #6699CC;
+    /* color: rgb(172, 186, 214); */
+
+    font-size: 50px;
+  }
+
+  .gift4 {
+    padding: 20px;
   }
 
 }
+© 2021 GitHub, Inc.
